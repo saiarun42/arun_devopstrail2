@@ -1,0 +1,40 @@
+.project-health {
+  margin-top: 20px;
+}
+.matrix {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+  height: 300px;
+  width: 450px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.matrix h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.axis {
+  position: absolute;
+  background: #ccc;
+}
+.axis.vertical {
+  top: 40px;
+  bottom: 10px;
+  left: 50%;
+  width: 1px;
+}
+.axis.horizontal {
+  left: 10px;
+  right: 10px;
+  top: 50%;
+  height: 1px;
+}
+.label {
+  font-size: 11px;
+  position: absolute;
+}
+.top-left { top: 5px; left: 5px; }
+.top-right { top: 5px; right: 5px; }
+.bottom-left { bottom: 5px; left: 5px; }
+.bottom-right { bottom: 5px; right: 5px; }
